@@ -1,0 +1,309 @@
+html, body, div, span, applet, object, iframe,
+ h3,blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #f4ffe2;
+  }
+
+.nav{
+  overflow: hidden;
+  background-color: lightsalmon;
+}
+
+.nav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.nav img{
+	float: right;
+	max-width: 50px;
+	height:auto;
+	display: block;
+	margin:auto;
+}
+
+.picture{
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.picture img{
+  max-width: 250px;
+  height:auto;
+  display: block;
+  margin:auto;
+}
+
+.picture h3{
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.title{
+	text-align: center;
+	border: darksalmon 10px solid;
+	max-width: 20%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.info{
+	display: flex;
+	margin-top: 50px;
+}
+
+.rows1{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.rows1 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+}
+
+.rows1 h3{
+	text-align: center;
+	padding: 25px;
+	font-size: 18px;
+}
+
+.rows2{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.rows2 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+}
+
+.rows2 h3{
+	text-align: center;
+	padding: 25px;
+	font-size: 18px;
+}
+
+.rows3{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.rows3 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+}
+
+.rows3 h3{
+	text-align: center;
+	padding: 25px;
+	font-size: 18px;
+}
+
+.rows4{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.rows4 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+	margin-right: 50px;
+}
+
+.rows4 h3{
+	text-align: center;
+	padding: 25px;
+	font-size: 18px;
+	margin-right: -40%;
+}
+
+.rows5{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.rows5 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+	margin-left: 40px;
+}
+
+.rows5 h3{
+	text-align: center;
+	padding: 25px;
+	font-size: 18px;
+	margin-left: -40%;
+}
+
+
+
+footer {
+	text-align: center;
+	padding: 1px;
+	background-color: DarkSalmon;
+	color: black;
+}
+
+/*Index page end*/
+
+/*categories page start*/
+
+.content h2{
+	text-align: center;
+}
+.line1{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.line1 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+}
+
+.line2{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.line2 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+}
+
+.line3{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.line3 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+}
+
+.line4{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.line4 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+}
+
+.line5{
+	flex: 33.33%;
+	padding: 5px;
+	width: 100%;
+}
+
+.line5 img{
+	max-width: 300px;
+	height: auto;
+	display: block;
+  	margin:auto;
+	margin-bottom: 20px;
+}
+
+/*categories page end*/
+
+/*product  start*/
+.shoes1 {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	margin-left: 30px;
+}
+  
+.shoes1 img {
+	max-width: 350px;
+	margin-top: 12px;
+}
+
+.box1{
+	border: darksalmon 3px solid;
+	margin-top: 30px;
+	font-size: 15px;
+	padding: 15px;
+}
+
+#des1{
+	text-align: justify;
+}
